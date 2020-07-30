@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+      android:background="@drawable/jieshao">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="川菜"
+        android:textSize="15dp"
+        android:background="#000000"
+        android:textColor="#8A2BE2"/>
+   
+<Gallery
+        android:id="@+id/galleryyuecai"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp" />
+
+
+ 
+
+</LinearLayout>

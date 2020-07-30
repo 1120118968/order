@@ -1,0 +1,56 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1.0"
+    android:layout_height="match_parent">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:layout_weight="0.3"
+        android:id="@+id/id1">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_weight="0.3"
+        android:id="@+id/name1">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sex"
+        android:layout_weight="0.3"
+        android:id="@+id/sex1">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:layout_weight="0.3"
+        android:id="@+id/age1">
+
+    </TextView>
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:layout_weight="0.3"
+        android:id="@+id/health1">
+
+    </TextView>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:layout_weight="0.3"
+        android:id="@+id/phonenumber1">
+            </TextView>
+</LinearLayout>

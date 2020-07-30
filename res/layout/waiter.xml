@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jieshao"
+     >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffa500"
+        android:gravity="center_horizontal"
+        android:text="欢迎来到本餐厅"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/ayue"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/yuecai" 
+                android:tag="aaa"/>
+
+            <ImageButton
+                android:id="@+id/alu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/lucai" />
+
+            <ImageButton
+                android:id="@+id/achuan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/chuancai" />
+        </TableRow>
+<TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#c0d9d9"/>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:background="#c0d9d9" 
+            >
+
+            <Button
+                android:id="@+id/yucai"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#c0d9d9"
+                android:text="粤菜"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/lucai"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#c0d9d9"
+                android:text="鲁菜"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/chuancai"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#c0d9d9"
+                android:text="川菜"
+                android:textColor="#ffffff" />
+
+        </TableRow>
+<TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#c0d9d9"/>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="100dp"
+            android:layout_height="100dp" >
+
+            <ImageButton
+                android:id="@+id/aguo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/guozai" />
+
+            <ImageButton
+                android:id="@+id/atang"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/chaofan" />
+
+            <ImageButton
+                android:id="@+id/ajiushui"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/jiushui" />
+        </TableRow>
+<TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#c0d9d9"/>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/guozai"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#c0d9d9"
+                android:text="锅仔"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/tang"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#c0d9d9"
+                android:text="汤"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/jiushui"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#c0d9d9"
+                android:text="酒水"
+                android:textColor="#ffffff" />
+
+        </TableRow>
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#c0d9d9"/>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="我点的菜"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="点餐"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/returnfirst"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            
+            android:text="返回首界面"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/dafen"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="打分"
+            android:textColor="#000000"
+            />
+     
+    </LinearLayout>
+
+</LinearLayout>

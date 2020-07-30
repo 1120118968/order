@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jieshao" >
+
+    <EditText
+        android:id="@+id/Operands"
+        style="@style/et01"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/btn01"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/btn01"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/btn01"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/btn01"
+                android:text="4" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/btn01"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b6"
+                style="@style/btn01"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/b7"
+                style="@style/btn01"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b8"
+                style="@style/btn01"
+                android:text="8" />
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp" >
+
+        <Button
+            android:id="@+id/b9"
+            style="@style/btn01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/b0"
+            style="@style/btn01"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/b9"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/cancle"
+            style="@style/btn01"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/b0"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/btn03"
+            android:layout_below="@+id/b9"
+            android:layout_toLeftOf="@+id/sub"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/sub"
+            style="@style/btn03"
+            android:layout_alignBaseline="@+id/add"
+            android:layout_alignBottom="@+id/add"
+            android:layout_alignRight="@+id/cancle"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/mul"
+            style="@style/btn03"
+            android:layout_alignRight="@+id/add"
+            android:layout_centerVertical="true"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/chu"
+            style="@style/btn03"
+            android:layout_alignLeft="@+id/sub"
+            android:layout_alignRight="@+id/sub"
+            android:layout_alignTop="@+id/mul"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/equal"
+            style="@style/btn02"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cancle"
+            android:text="=" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jieshao" >
+
+<TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="鲁菜"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金额/元" 
+                 android:layout_marginLeft="50dp"
+                 />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="数量/盘" 
+                 android:layout_marginLeft="60dp"
+                  />
+
+           
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textbabaojiayu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="八宝甲鱼"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textlucai86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="86" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/editbabaojiayu"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                 android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+           
+
+              <CheckBox
+                android:id="@+id/checkbabaojiayu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                
+                   />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/texthongshaojiyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="红烧鲫鱼"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textlucai58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="58" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/edithongshaojiyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkhongshaojiyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 />
+            
+        </TableRow>
+              <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/textshaoshuikuyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="烧水库鱼"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textshaoshuikuyu28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/editshaoshuikuyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkshaoshuikuyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"/>
+                  
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/textxiaqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="虾球"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textxiaqiu28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/editxiaqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkxiaqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"/>
+                  
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/texthuachaoxiaomo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="滑蘑小炒"
+                  />
+             
+
+            <TextView
+                android:id="@+id/texthuachaoxiaomo34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/edithuachaoxiaomo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkhuachaoxiaomo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"/>
+                  
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/textluroupian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="卤肉片"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textluroupian55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="55" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/editluroupian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkluroupian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"/>
+                  
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/textbasidigua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拔丝地瓜"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textbasidigua28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/editbaisidigua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkfenghuangqiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"/>
+                  
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                android:id="@+id/textbasipingguo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拔丝苹果"
+                  />
+             
+
+            <TextView
+                android:id="@+id/textbasipingguo118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18" 
+                android:layout_marginLeft="60dp"
+                  />
+
+            <EditText
+                android:id="@+id/editbasipingguo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                 android:layout_marginLeft="60dp"
+                  android:maxHeight="48dp"
+                 android:maxWidth="27dp"
+                 android:singleLine="true"
+                 android:maxLines="2"
+                  />
+
+              <CheckBox
+                android:id="@+id/checkbasipingguo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"/>
+                  
+        </TableRow>
+        </TableLayout>
+
+         <EditText
+             android:id="@+id/lucaixiaofeijine"
+             android:layout_width="156dp"
+             android:layout_height="40dp"
+             android:hint="/消费金额" />
+
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lucaidiancan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:text="我的消费" />
+
+            <Button 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="返回主菜单"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:id="@+id/lucaixuancaiexit"/>
+        </LinearLayout>
+    
+</LinearLayout>
